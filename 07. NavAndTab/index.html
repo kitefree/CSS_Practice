@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07. NavAndTab</title>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">    
+    <link href="all.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-auto ">
+        <ul class="nav bg-dark" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link link-secondary" href="#" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">HOME</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link link-secondary" href="#" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab" aria-controls="about" aria-selected="true">ABOUT</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link link-secondary active" href="#" href="#" id="album-tab" data-bs-toggle="tab" data-bs-target="#album" type="button" role="tab" aria-controls="album" aria-selected="true">ALBUM</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <img src="https://fakeimg.pl/800x300/?text=home" />
+          </div>
+          <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
+            <img src="https://fakeimg.pl/800x300/?text=about" />
+          </div>
+          <div class="tab-pane show active" id="album" role="tabpanel" aria-labelledby="album-tab">
+            <img src="https://fakeimg.pl/800x300/?text=album" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.col-4{
+    background: #cccc;
+    border:1px solid black;
+  }
+  
+  .col-8{
+    background: #cccc;
+    border:1px solid black;
+  }
+  
+  .col-10,.col-2
+  {
+    background: #cccc;
+    border:1px solid black;
+  }

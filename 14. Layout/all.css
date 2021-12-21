@@ -1,0 +1,39 @@
+.container{
+  margin: 0 auto;
+  max-width:1166px;
+}
+.main{
+  display:flex;
+  justify-content:space-between;
+  background: #364d3b;
+}
+.card{
+  width:370px;
+  height:535px;
+}
+.card h2{
+  height:50%;
+  background: #e7eeea;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:82px;
+  color:#37523d;
+}
+.card .content{
+  background: #ffffff;
+  height:50%;
+  padding:33px;
+}
+.content h3{  
+  color:#37523d;
+  font-size:24px;
+  font-weight:bold;
+  margin-bottom:33px;
+  
+  
+}
+.content p{
+  font-size:22px;
+  line-height:1.5;
+}

@@ -1,0 +1,62 @@
+.btn {
+    color: #fff;            
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.btn-mediumpurple {
+    background-color: mediumpurple;
+}
+
+.btn-tomato {
+    background-color: tomato;
+}
+
+.btn-pink {
+    background-color: pink;
+}
+
+.btn-purple {
+    background-color: purple;
+}
+
+.btn-seagreen {
+    background-color: seagreen;
+}
+
+.btn-large {
+    font-size: 32px;
+}
+
+.btn-medium {
+    font-size: 22px;
+}
+
+.btn-small {
+    font-size: 12px;
+}
+
+.btn-outline-primary {            
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-outline-success {            
+    color: #198754;
+    border-color: #198754;
+}
+
+.btn-outline-warning {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-outline-info {
+    color: #0dcaf0;
+    border-color: #0dcaf0;
+}

@@ -1,0 +1,9 @@
+.col-md-3{
+  background: red;
+  border:1px solid red;
+}
+
+.col-sm-4{
+  background: yellow;
+  border:1px solid green;
+}

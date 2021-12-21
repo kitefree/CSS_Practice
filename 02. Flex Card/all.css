@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 700px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card {
+    width: 300px;
+    text-align: center;
+
+    margin: 12px;
+    border: 2px solid #c7ecec;
+}
+.card .header{
+    font-size: 0;
+}
+.card .footer {
+    background-color: #5cd17b;
+    padding: 12px;
+    border: 0px;
+}
+
+.card .footer a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+.card .footer a:hover {
+    color: red;
+}
+
+.content {
+    display: flex;
+    margin: 0 auto;
+    align-items:stretch;            
+}
+
+.item_name {
+  
+  
+    width: 150px;
+    border-right: 1px solid gray;
+    padding-top:12px;
+    padding-bottom:12px;            
+}
+
+.item_price {
+    width: 150px;
+    padding-top:12px;
+    padding-bottom:12px;
+}

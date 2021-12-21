@@ -1,0 +1,182 @@
+.container{
+	max-width: 800px;
+	margin: 0 auto;
+	/* background: #f4fa9c; */
+
+}
+
+/* follow */
+.follow{
+	background: #cccbd3;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+.follow li {	
+	padding:5px;
+	vertical-align:middle;
+}
+.follow li a{
+	text-decoration: none;
+}
+
+.follow .fb{
+	color:#4460A0;
+}
+.follow .twitter{
+	color:#00AAEC;
+}
+
+.header{
+	display:flex;
+	justify-content: space-between;
+}
+
+/* menu */
+.menu{
+	display:flex;
+	justify-content:flex-end;
+	align-items: center;	
+}
+.menu .logo{
+	align-self: flex-start;	
+}
+
+
+
+.menu li a{
+	display:block;
+	color:#00CC99;
+	text-decoration: none;
+	padding-left:12px;	
+	
+}
+
+.menu li a:hover{	
+	border-bottom:3px solid #00CC99;
+}
+
+/* banner */
+.banner img{
+	width:100%;
+}
+.banner1 img{
+	width: 100%;
+}
+
+/* .banner2{
+	background-image: url("../images/banner.png");
+	width:100%;
+	height: 276px;
+	background-position:center; 
+	margin-bottom:12px;
+} */
+
+/* content */
+.content{
+	/* background: #7b73ec; */
+	margin-top:12px;
+	margin-bottom:12px;
+}
+
+/* course */
+.course {
+	display:flex;
+	justify-content: space-evenly;	
+	margin-bottom:12px;
+}
+.course img{	
+	width:100%;	
+}
+.course li{	
+	border:1px solid #dbdbdb;
+	width:240px;	
+}
+.course li h2{
+	text-align:center;
+	font-weight: bold;
+}
+.course li p{
+	padding:12px;
+}
+
+/* contact */
+.contact{
+	height:320px;
+	background: #25b0b9;	
+	background-image: linear-gradient(to bottom, #008b8b, #00c7c7);
+	
+}
+.contact .title{
+	text-align: center;	
+	padding-top:20px;
+	padding-bottom:20px;
+	font-weight: bold;
+	line-height: 1.5;
+	font-size:20px;
+	color:#FFF;
+	/* background: #793333; */
+}
+
+.info{
+	display: flex;
+	justify-content:space-around;
+	height: 180px;
+	/* border:1px solid gray; */
+	margin-left:12px;
+	margin-right:12px;
+	line-height: 1.8;
+	color:#fff;
+}
+
+
+.info li{
+	width: 350px;	
+	/* border:1px solid yellow; */
+	
+}
+.info li:first-child{
+	background: #cccc;
+}
+
+.info input{
+	width:100%;
+}
+
+.info input[type="text"]{
+	border-radius: 5px;
+	border:1px solid transparent;
+	height:20px;
+}
+
+.info input[type="button"]{
+	width:50px;
+	float:right;
+	border-radius: 5px;
+	border:1px solid #00d6ff;
+	padding:5px;
+	background-color: #00c3ff;
+	margin:5px;
+}
+
+
+/* footer */
+.footer{
+	/* background: #afafaf; */
+	padding:10px;
+	text-align: center;
+	margin-bottom:20px;
+}
+.contact_us{
+	display:flex;
+	justify-content: space-between;	
+	
+}
+.contact_us li{
+	text-align: left;
+}
+
+.contact_us li a{
+	text-decoration: none;
+	color:#ffb5c5;
+}
